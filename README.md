@@ -1,6 +1,11 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/bXytyn50)
 # Assignment 1 - Landing Page + Git
 
+[Figma Design Link](https://www.figma.com/design/31CrRTw480Y91OWyxWqqj8/Challenge-1---Batch-4?node-id=8411-143671&p=f&t=z4rvc4xN6W15E9pz-0)
+
+
+
+
 ## Selamat Datang
 
 Halo teman-teman, selamat datang di assignment pertama kalian. Di minggu ini kita akan mulai dari fondasi paling penting dalam web development, yaitu HTML semantic, CSS dasar, dan Git sebagai version control. Anggap saja assignment ini sebagai pemanasan sebelum kita masuk ke materi yang lebih kompleks di minggu-minggu berikutnya.

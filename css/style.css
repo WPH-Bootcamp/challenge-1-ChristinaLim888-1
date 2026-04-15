@@ -1,1 +1,87 @@
 /* code here */
+:root {
+    --primary-color: #421ABC;
+    --base-white: #FFFFFF; /*tidak berfungsi di bagian header : menu dan button*/
+    --base-black: #000000;
+    --text-primary: #FDFDFD;
+    --text-secondary: #718680;
+    --font-size1: 56px;
+    --font-size2: 40px;
+    --font-size3: 32px;
+    --font-size4: 24px;
+    --font-size5: 20px;
+    --font-size6: 16px;
+}
+
+body {
+    margin: 0;
+    background-color: var(--base-black);
+    color: var(--base-white);
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+/* jika layar >= 768px (tablet/desktop) */
+@media (min-width: 768px) {
+  .container {
+    padding: 0 150px;
+  }
+}
+
+.tombol {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--primary-color);
+  color: var(--base-white);
+  text-decoration: none;
+
+  padding: 10px 40px;
+  font-size: 14px;
+  font-weight: 600;
+
+  border-radius: 999px; /* kiri kanan bulat */
+}
+
+.every-page {
+    padding: 80px 140px 80px 140px; 
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--base-white);
+    padding: 5px 0;
+}
+
+.logo {
+    font-size: 15px;
+    font-weight: 700;
+    padding-left: 46px;
+}
+
+.menu {
+    display: flex;
+    gap: 36px;
+    list-style: none;  /* hilangkan bullet */
+    padding: 0;
+    margin: 0;
+}
+.menu a {
+    color: var(--base-white);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/*-------------------------- Navbar --------------------------*/
+
+
+
+
+
+
