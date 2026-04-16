@@ -25,13 +25,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/* jika layar >= 768px (tablet/desktop) */
-@media (min-width: 768px) {
-  .container {
-    padding: 0 170px;
-  }
-}
-/*<!-------------------------------- batas -------------------------------->*/
+/*<!---------------------------- batas ---------------------------->*/
 
 .tombol {
   display: inline-flex;
@@ -76,18 +70,25 @@ body {
   font-size: 14px;
 }
 
+/* ========================= */
+/* 🔥 NAVBAR (MOBILE FIRST) */
+/* ========================= */
 /*-------------------------- Navbar --------------------------*/
+
 .container-nav {
-  min-height: 100vh; /* full layar */
-  /* width: 100%; */
+  min-height: 100vh;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  /* gap: 40px; */
-  border: 1px solid yellow;
-  padding: 0 16px; /* mobile default */
-  background: linear-gradient(to bottom, var(--base-black), var(--base-black), #210a5e);
-  margin: 0;
+  flex-direction: column;
+  justify-content: flex-start; /* ⛔ JANGAN center */
+  align-items: stretch; /* ⛔ jangan center */
+
+  padding: 40px 20px; kasih ruang kiri kanan
+
+  background: linear-gradient(
+    to bottom,
+    var(--base-black),
+    #210a5e
+  );
 }
 
 /* kiri (text) */
