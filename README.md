@@ -1,8 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/bXytyn50)
 # Assignment 1 - Landing Page + Git
 
-[Figma Design Link](https://www.figma.com/design/31CrRTw480Y91OWyxWqqj8/Challenge-1---Batch-4?node-id=8411-143671&p=f&t=z4rvc4xN6W15E9pz-0)
-
 
 
 
